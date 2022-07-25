@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{ 
+    --navbar-height: 59px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.56;
+}
+#logo{
+    margin: 8px 25px;
+
+}
+#logo img{
+    width: 35px;
+    border-radius: 100%;
+    margin: 0px 5px;
+
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 24px;
+}
+#navbar ul li a{
+    color: whitesmoke;
+    display: block;
+    padding: 5px 62px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bolder;
+}
+#navbar ul li a:hover{
+    color: rgb(145, 145, 52);
+    border: 2px solid black;
+    border-radius: 23px;
+    background-color: lightblue;
+}
+#navbar ul li a:active{
+    color: blue;
+    background-color: aquamarine;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    height: 700px;
+
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('bg1image.jpg') no-repeat center center/cover;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -2;
+    opacity: 0.85;
+}
+#theory{
+    font-size: 70px;
+    font-style: italic;
+    padding: 12px 34px;
+    
+
+}
+#theory1{
+    font-size: 91px;
+    font-style: italic;
+    padding: 12px 34px;
+    color: rgb(129, 46, 46);
+
+}
+#theory1:hover{
+    color: rgb(120, 204, 36);
+    font-style: oblique;
+    transition: all 1s ease-out;
+    cursor:pointer;
+    
+
+}
+#theory2{
+    font-size: 34px;
+    font-style: italic;
+    padding: 12px 34px;
+    font-weight: bolder;
+    color: black;
+
+
+}
+#theory3{
+    font-size: 34px;
+    font-style: italic;
+    padding: 12px 34px;
+
+}
+.travel{
+    /* margin-top: 300px; */
+    position: relative;
+    height: 1210px;
+    width: 100%;
+}
+.theory4{
+    font-size: 56px;
+    text-align: center;
+    font-weight: 600;
+    text-shadow: 12px 13px 10px rgb(65, 60, 60);
+    
+}
+#countriestotravel{
+    display: flex;
+}
+.box1{
+    border: 2px solid black;
+    border-radius: 13px;
+    margin: 33px;
+    text-align: center;
+    box-shadow: 12px 12px 13px rgb(106, 101, 101);
+    background-color: rgb(255, 202, 202);
+    cursor: pointer;
+}
+.box1:hover{
+    background-color: rgb(42, 98, 100);
+    color: aliceblue;
+    transition: all 1s ease-in-out;
+
+}
+.box1 img{
+    height: 234px;
+    width: 284px;
+    border: 2px solid black;
+    border-radius: 13px;
+    
+}
+.box1 img:hover{
+    box-shadow: 12px 12px 14px rgb(0, 0, 0);
+    transition: all 0.4s ease-in-out;
+}
+.box1 h1{
+    font-size: 53px;
+}
+.box1 p{
+    font-size: 23px;
+    font-style: italic;
+    margin-top: 15px;
+}
+#countriestotravel1{
+    display: flex;
+}
+.box2{
+    border: 2px solid black;
+    border-radius: 13px;
+    margin: 43px;
+    text-align: center;
+    background-color: rgb(218, 235, 210);
+    box-shadow: 12px 12px 13px rgb(106, 101, 101);
+    cursor: pointer;
+}
+.box2:hover{
+    background-color: rgb(42, 98, 100);
+    color: aliceblue;
+    transition: all 1s ease-in-out;
+
+}
+.box2 img{
+    height: 234px;
+    width: 284px;
+    border: 2px solid black;
+    border-radius: 13px;
+    
+}
+.box2 img:hover{
+    box-shadow: 12px 12px 14px rgb(0, 0, 0);
+    transition: all 0.4s ease-in-out;
+}
+.box2 h1{
+    font-size: 53px;
+}
+.box2 p{
+    margin-top: 15px;
+    font-size: 23px;
+    font-style: italic;
+}
+.aboutsection{
+    /* margin-top: 700px; */
+    position: relative;
+}
+.aboutsection::before{
+    content: "";
+    position: absolute;
+    background: url('images.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.99;
+    
+}
+.theory8{
+    font-size: 70px;
+    text-align: center;
+    color: blanchedalmond;
+    
+}
+#aboutus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+
+}
+#aboutus p{
+    font-size: 25px;
+    font-style: oblique;
+    text-align: center;
+    /* border: 3px dashed rgb(244, 243, 243); */
+    margin-left: 73px;
+    margin-right: 74px;
+    border-radius: 45px;
+    padding: 13px;
+    color: rgb(170, 214, 252);
+    background-color: rgb(55, 34, 55);
+    
+}
+#aboutus img{
+    border: 2px solid black;
+    border-radius: 13px;
+    box-shadow: 13px 16px 13px rgb(61, 58, 58);
+    height: 253px;
+    width: 275px;
+    margin-left: 19px;
+    
+}
+#aboutus1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 43px;
+
+}
+#aboutus1{
+    display: flex;
+    margin-top: 53px;
+
+}
+#aboutus1 p{
+    font-size: 25px;
+    text-align: center;
+    font-style: oblique;
+    /* border: 7px dotted black; */
+    margin-left: 73px;
+    margin-right: 74px;
+    border-radius: 45px;
+    padding: 13px;
+    color: brown;
+    background-color: rgb(175, 249, 224);
+}
+#aboutus1 img{
+    border: 2px solid black;
+    border-radius: 13px;
+    box-shadow: 13px 16px 13px rgb(61, 58, 58);
+    height: 253px;
+    width: 275px;
+    margin-right: 30px;
+    
+}
+.loginsection{
+    /* margin-top: 60px; */
+    position: relative;
+    height: 740px;
+}
+.loginsection::before{
+    content: "";
+    position: absolute;
+    background: url('contactusbgimage.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.84;
+    margin-top: 15px;
+
+}
+.loginsection h1{
+    font-size: 50px;
+    text-align: center;
+    color: antiquewhite;
+    padding: 11px;
+    
+}
+.formclass{
+    text-align: center;
+    margin-top: 23px;
+    font-size: 28px;
+    color: bisque;
+}
+.formclass input{
+    margin-left: 83px;
+    width: 523px;
+    height: 23px;
+}
+
+.btn{
+    border: 2px solid black;
+    height: 64px;
+    width: 100px;
+    border-radius: 13px;
+    color: aliceblue;
+    background-color: cadetblue;
+    margin-left: 45%;
+    font-size: 24px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: yellow;
+}
+.btn:active{
+    color: blue;
+}
+.aboutmesection{
+    text-align: center;
+    position: relative;
+
+}
+.aboutmesection h1{
+    font-size: 60px;
+    margin-top: 15px;
+}
+#creator{
+
+    /* width: 1023px; */
+    border-radius: 23px;
+    display: flex;
+    
+    
+}
+#creator img{
+    border: 2px solid black;
+    margin-top: 20px;
+    border-radius: 50%;
+    height: 284px;
+    width: 270px;
+    box-shadow: 12px 13px 12px black;
+    
+}
+#creator p{
+    margin-top: 60px;
+    font-size: 23px;
+    border: 2px solid black;
+    border-radius: 13px;
+    padding: 52px;
+    margin-left: 53px;
+    background-color: beige;
+}
+
+.contactussection{
+    /* margin-top: 33px; */
+    position: relative;
+}
+.contactussection h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+
+#contactus{
+    display: flex;
+}
+#contactus img{
+    height: 194px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+    box-shadow: 12px 12px 11px black;
+    cursor: pointer;
+    margin: 59px;
+
+}
+#contactus img:hover{
+    border-radius: 13px;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 9px 20px;
+    text-align: center;
+    position: relative;
+}
+.popup{
+    width: 400px;
+    background-color: bisque;
+    border: 2px solid black;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    visibility: hidden;
+    transition: transform 0.4s , top 0.4s;
+}
+
+
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+
+}
+.popup img{
+    border: 2px solid black;
+    border-radius: 100%;
+    height: 110px;
+    width: 112px;
+    margin-top: -50px;
+    box-shadow: 8px 8px 6px black;
+
+}
+.btn11{
+    height: 30px;
+    width: 123px;
+    margin-top: 13px;
+    border: 2px solid black;
+    border-radius: 23px;
+    cursor: pointer;
+
+
+}
+.popup h2{
+    margin-top: 11px;
+}
+
+

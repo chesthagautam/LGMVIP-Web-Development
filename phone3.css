@@ -1,0 +1,139 @@
+.navlist{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 10px;
+    padding: 0px 4px;
+}
+#home{
+    height: 340px;
+    padding: 3px 38px;
+}
+#home h1,#home h2,#home h3{
+    font-size: 23px;
+}
+#home p{
+    font-size: 20px;
+}
+#home::before{
+    height: 580px;
+}
+.travel{
+    margin-top: 172px;
+}
+#countriestotravel,#countriestotravel1{
+    flex-direction: column;
+}
+.box1 img,.box2 img{
+    height: 56px;
+    width: 60px;
+}
+.box1 h1,.box1 p,.box2 h1,.box2 p{
+    font-size: 23px;
+}
+.aboutsection::before{
+    height: 380px;
+    
+    
+}
+.aboutsection h1{
+    margin-top: 1400px;
+    font-size: 23px;
+}
+ #aboutus p,#aboutus1 p{
+    font-size: 9px;
+    
+}
+#aboutus img ,#aboutus1 img{
+    height: 86px;
+    width: 90px;
+
+}
+.loginsection{
+    height: 400px;
+}
+
+.loginsection h1{
+    margin-top: 10px;
+    font-size: 23px;
+}
+#login form{
+    font-size: 12px;
+}
+#login input{
+    width: 123px;
+    height: 15px;
+}
+.aboutmesection{
+    height: 300px;
+}
+.aboutmesection h1{
+    font-size: 22px;
+
+}
+#creator img{
+    height: 74px;
+    width: 75px;
+    margin-top: 100px;
+
+}
+#creator p{
+    font-size: 9px;
+}
+#contactus{
+    flex-wrap: wrap;
+}
+#contactus img{
+    height: 60px;
+    width: 70px;
+
+}
+.contactussection h1{
+    font-size: 23px;
+}.popup{
+    width: 100px;
+    background-color: bisque;
+    border: 2px solid black;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    visibility: hidden;
+    transition: transform 0.4s , top 0.4s;
+}
+
+
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+
+}
+.popup img{
+    border: 2px solid black;
+    border-radius: 100%;
+    height: 80px;
+    width: 90px;
+    margin-top: -50px;
+    box-shadow: 8px 8px 6px black;
+
+}
+.btn11{
+    height: 29px;
+    width: 43px;
+    margin-top: 13px;
+    border: 2px solid black;
+    border-radius: 23px;
+    cursor: pointer;
+    
+
+
+}
+.popup h2{
+    margin-top: 11px;
+}
+
+
